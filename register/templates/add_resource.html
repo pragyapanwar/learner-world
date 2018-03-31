@@ -1,0 +1,55 @@
+{% extends 'base1.html' %}
+
+{% load staticfiles %}	
+
+{{msg}}
+{{ score}}
+<div class="container-login100" style="background-image: url({% static 'images/bg-01.jpg' %});">
+		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
+			<form class="login100-form validate-form" method="post" >
+				<span class="login100-form-title p-b-37">
+					Add New Resource
+				</span>
+
+{% block content %}
+{% csrf_token %}
+   {% for field in form %}
+    <div class="form-group" >
+             <div class=" col-sm-offset-2 col-sm-10">
+ <!---     <span class="text-danger small">{{ field.errors}}
+</span>   -->
+</div>
+   <label class="control-label ">{{ field.label_tag }} </label>
+     <div class="abc"> {{ field }} </div>
+
+
+   
+
+</div>
+
+{% endfor %}
+
+
+<div class="container-login100-form-btn">
+					<button class="login100-form-btn">
+		<a href="{% url 'index' 'add_resource'%}">Add resource</a>
+					</button>
+				</div>
+
+				
+								<div class="text-center">
+					<a href="{% url 'index' 'logout' %}" class="txt2 hov1">
+						logout!
+					</a>
+<a href="{% url 'password_reset'  %}" class="txt2 hov1">
+						forgot password?
+					</a>
+	
+				</div>
+			</form>
+
+			
+		</div>
+	</div>
+	
+	{% endblock %}

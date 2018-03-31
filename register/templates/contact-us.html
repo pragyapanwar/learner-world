@@ -1,0 +1,494 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://kodeforest.net/html/books/library/contact-us.html -->
+<html lang="en" class=" js no-touch cssanimations csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.gm-style .gm-style-mtc label,.gm-style .gm-style-mtc div{font-weight:400}
+</style><link type="text/css" rel="stylesheet" href="./contact-us_files/css"><style type="text/css">.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px}
+</style><style type="text/css">@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style type="text/css">.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+</style>
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Learners World! Come, Contribute and Learn!</title>
+<!-- CUSTOM STYLE -->
+<link href="{% static './about-us_files/style.css' %}" rel="stylesheet">
+<!-- THEME TYPO -->
+<link href="{% static './about-us_files/themetypo.css' %}" rel="stylesheet">
+<!-- SHORTCODES -->
+<link href="{% static './about-us_files/shortcode.css' %}" rel="stylesheet">
+<!-- BOOTSTRAP -->
+<link href="{% static './about-us_files/bootstrap.css' %}" rel="stylesheet">
+<!-- COLOR FILE -->
+<link href="{% static './about-us_files/color.css' %}" rel="stylesheet">
+<!-- FONT AWESOME -->
+<link href="{% static './about-us_files/font-awesome.min.css' %}" rel="stylesheet">
+<!-- BX SLIDER -->
+<link href="{% static './about-us_files/jquery.bxslider.css' %}" rel="stylesheet">
+<!-- Boostrap Slider -->
+<link href="{% static './about-us_files/bootstrap-slider.css' %}" rel="stylesheet">
+<!-- Widgets -->
+<link href="{% static './about-us_files/widget.css' %}" rel="stylesheet">
+<!-- Owl Carusel -->
+<link href="{% static './about-us_files/owl.carousel.css' %}" rel="stylesheet">
+<!-- responsive -->
+<link href="{% static './about-us_files/responsive.css' %}" rel="stylesheet">
+<!-- Component -->
+<link href="{% static './about-us_files/component.css' %}" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script type="text/javascript" charset="UTF-8" src="./contact-us_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./contact-us_files/map.js"></script><style type="text/css">.gm-style {
+        font: 400 11px Roboto, Arial, sans-serif;
+        text-decoration: none;
+      }
+      .gm-style img { max-width: none; }</style><script type="text/javascript" charset="UTF-8" src="./contact-us_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./contact-us_files/onion.js"></script><script type="text/javascript" charset="UTF-8" src="./contact-us_files/controls.js"></script><script type="text/javascript" charset="UTF-8" src="./contact-us_files/marker.js"></script><script type="text/javascript" charset="UTF-8" src="./contact-us_files/stats.js"></script></head>
+<body class="loaded">
+<div id="loader-wrapper">
+	<div id="loader"></div>
+
+	<div class="loader-section section-left"></div>
+	<div class="loader-section section-right"></div>
+
+</div>
+<!--WRAPPER START-->
+<div class="wrapper kode-header-class-3">
+	<!--HEADER START-->
+	<header class="header-3">
+    	<div class="container">
+            <div class="logo-container">
+            	<div class="row">
+                	<div class="col-md-3">
+                    	 <!--LOGO START-->
+                        <div class="logo">
+                            <a href="{% url 'index' 'index' %}"><img src="{% static './index_files/logo-2.png' %}" alt=""></a>
+                        </div>
+                        <!--LOGO END-->
+                    </div>
+                    <div class="col-md-9">
+                    	<div class="top-strip">
+                            <div class="pull-left">
+                                <p>Welcome to LearnersWorld</p>
+                            </div>
+                            <div class="social-icon">
+                                <a href="{% url 'index' 'index' %}" class="pull-left">info@learnersworld.com</a>
+                                <ul>
+                                    <li><a href="about-us.html#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="about-us.html#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="about-us.html#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="about-us.html#"><i class="fa fa-linkedin"></i></a></li>                      
+                                </ul>
+                            </div>
+                        </div>
+                    	<div class="kode-navigation">
+						   <ul>
+								<li><a href="{% url 'index' 'index' %}">Home</a>
+								</li>
+								<li><a href="{% url 'index' 'add_resource' %}">Contribute</a></li>
+								<li><a href="{% url 'index' 'books' %}">Resources</a>
+								</li>
+								<li class="last"><a href="{% url 'index' 'contact-us' %}">Contact Us</a></li>
+							</ul>
+						</div>
+						<div id="kode-responsive-navigation" class="dl-menuwrapper">
+							<button class="dl-trigger">Open Menu</button>
+							<ul class="dl-menu">
+								
+								<li><a href="{% url 'index' 'contribute' %}">Contribute</a></li>
+								<li class="menu-item kode-parent-menu"><a href="{% url 'index' 'books' %}">Resources</a>
+								</li>
+								<li class="last"><a href="{% url 'index' 'contact-us' %}">Contact Us</a></li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER END-->
+    <!--BANNER START-->
+    <div class="kode-inner-banner">
+    	<div class="kode-page-heading">
+        	<h2>Contact Us</h2>
+            <ol class="breadcrumb">
+              <li><a href="{% url 'index' 'index' %}">Home</a></li>
+              
+              <li class="active">Contact Us</li>
+            </ol>
+        </div>
+    </div>
+    <!--BANNER END-->
+    <div class="search-section">
+        <div class="container">
+			<!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+				<li role="presentation"><a href="contact-us.html#Basic" aria-controls="Basic" role="tab" data-toggle="tab">Basic</a></li>
+				<li role="presentation" class="active"><a href="contact-us.html#Author" aria-controls="Author" role="tab" data-toggle="tab">Author</a></li>
+				<!--<li role="presentation"><a href="contact-us.html#Publications" aria-controls="Publications" role="tab" data-toggle="tab">Publications</a></li>-->
+			  </ul>
+			
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+				<div role="tabpanel" class="tab-pane active" id="Basic">
+					<div class="form-container">
+						<div class="row">
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="First Name">
+							</div>
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="Middle Name">
+							</div>
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="Last Name">
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<button>Search Author</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="Author">
+					<div class="form-container">
+						<div class="row">
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="First Name">
+							</div>
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="Middle Name">
+							</div>
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="Last Name">
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<button>Search Author</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="Publications">
+					<div class="form-container">
+						<div class="row">
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="First Name">
+							</div>
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="Middle Name">
+							</div>
+							<div class="col-md-3 col-sm-4">
+								<input type="text" placeholder="Last Name">
+							</div>
+							<div class="col-md-3 col-sm-12">
+								<button>Search Author</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			  </div>
+		</div>
+    </div>
+    <!--CONTENT START-->
+   <div class="kode-content padding-tb-50">
+    	<div class="container">
+            <!--LOCATION MAP START-->
+            <div class="location-map">
+                <div class="map-canvas" id="map-canvas" style="position: relative; overflow: hidden;"><div style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; background-color: rgb(229, 227, 223);"><div class="gm-style" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px;"><div tabindex="0" style="position: absolute; z-index: 0; left: 0px; top: 0px; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none;"><div style="z-index: 1; position: absolute; left: 50%; top: 50%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 100; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -77, -125);"><div style="width: 256px; height: 256px; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -256px; top: 256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -512px; top: 256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -512px; top: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: -512px; top: -256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 512px; top: -256px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 512px; top: 0px;"></div><div style="width: 256px; height: 256px; position: absolute; left: 512px; top: 256px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 101; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 102; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 103; width: 100%;"><div style="position: absolute; left: 0px; top: 0px; z-index: -1;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -77, -125);"><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 0px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -256px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: -512px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: -256px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 0px;"></div><div style="width: 256px; height: 256px; overflow: hidden; position: absolute; left: 512px; top: 256px;"></div></div></div></div><div style="position: absolute; left: 0px; top: 0px; z-index: 0;"><div style="position: absolute; z-index: 1; transform: matrix(1, 0, 0, 1, -77, -125);"><div style="position: absolute; left: 0px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3697!3i2513!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=55867" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3696!3i2513!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=81300" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3696!3i2512!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=55769" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3697!3i2512!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=30336" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3698!3i2512!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=4903" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3698!3i2513!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=30434" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 256px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3698!3i2514!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=55965" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 0px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3697!3i2514!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=81398" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -256px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3696!3i2514!4i256!2m3!1e0!2sm!3i411111687!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=117894" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3699!3i2512!4i256!2m3!1e0!2sm!3i411111687!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=121604" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3695!3i2513!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=106733" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 0px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3699!3i2513!4i256!2m3!1e0!2sm!3i411111687!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=16064" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3695!3i2514!4i256!2m3!1e0!2sm!3i411111687!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=12256" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: -512px; top: -256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3695!3i2512!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=81202" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div style="position: absolute; left: 512px; top: 256px; width: 256px; height: 256px;"><img draggable="false" alt="" src="https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i12!2i3699!3i2514!4i256!2m3!1e0!2sm!3i411111698!3m14!2sen-GB!3sUS!5e18!12m1!1e68!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjgxfHMuZTpnfHAuYzojZmZmN2YxZGYscy50OjgyfHMuZTpnfHAuYzojZmZkMGUzYjQscy50OjEzMTR8cy5lOmd8cC52Om9mZixzLnQ6MnxzLmU6bHxwLnY6b2ZmLHMudDozM3xwLnY6b2ZmLHMudDozNnxzLmU6Z3xwLmM6I2ZmZmJkM2RhLHMudDo0MHxzLmU6Z3xwLmM6I2ZmYmRlNmFiLHMudDozfHMuZTpnLnN8cC52Om9mZixzLnQ6M3xzLmU6bHxwLnY6b2ZmLHMudDo0OXxzLmU6Zy5mfHAuYzojZmZmZmUxNWYscy50OjQ5fHMuZTpnLnN8cC5jOiNmZmVmZDE1MSxzLnQ6NTB8cy5lOmcuZnxwLmM6I2ZmZmZmZmZmLHMudDo1MXxzLmU6Zy5mfHAuYzpibGFjayxzLnQ6MTA1OXxzLmU6Zy5mfHAuYzojZmZjZmIyZGIscy50OjZ8cy5lOmd8cC5jOiNmZmEyZGFmMg!4e0!23i1301875&amp;token=30532" style="width: 256px; height: 256px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div></div><div class="gm-style-pbc" style="z-index: 2; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; opacity: 0;"><p class="gm-style-pbt"></p></div><div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;"><div style="z-index: 1; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px;"></div><div style="z-index: 4; position: absolute; left: 50%; top: 50%; transform: translate(0px, 0px);"><div style="position: absolute; left: 0px; top: 0px; z-index: 104; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 105; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 106; width: 100%;"></div><div style="position: absolute; left: 0px; top: 0px; z-index: 107; width: 100%;"></div></div></div></div><iframe frameborder="0" src="about:blank" style="z-index: -1; position: absolute; width: 100%; height: 100%; top: 0px; left: 0px; border: none;"></iframe><div style="margin-left: 5px; margin-right: 5px; z-index: 1000000; position: absolute; left: 0px; bottom: 0px;"><a target="_blank" href="https://maps.google.com/maps?ll=-37.821982,144.958135&amp;z=12&amp;hl=en-GB&amp;gl=US&amp;mapclient=apiv3" title="Click to see this area on Google Maps" style="position: static; overflow: visible; float: none; display: inline;"><div style="width: 66px; height: 26px; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/google_white5.png" draggable="false" style="position: absolute; left: 0px; top: 0px; width: 66px; height: 26px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></div></a></div><div style="background-color: white; padding: 15px 21px; border: 1px solid rgb(171, 171, 171); font-family: Roboto, Arial, sans-serif; color: rgb(34, 34, 34); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 16px; z-index: 10000002; display: none; width: 256px; height: 148px; position: absolute; left: 320px; top: 110px;"><div style="padding: 0px 0px 10px; font-size: 16px;">Map Data</div><div style="font-size: 13px;">Map data ©2018 Google</div><div style="width: 13px; height: 13px; overflow: hidden; position: absolute; opacity: 0.7; right: 12px; top: 12px; z-index: 10000; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/mapcnt6.png" draggable="false" style="position: absolute; left: -2px; top: -336px; width: 59px; height: 492px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div><div class="gmnoprint" style="z-index: 1000001; position: absolute; right: 71px; bottom: 0px; width: 121px;"><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a style="text-decoration: none; cursor: pointer; display: none;">Map Data</a><span>Map data ©2018 Google</span></div></div></div><div class="gmnoscreen" style="position: absolute; right: 0px; bottom: 0px;"><div style="font-family: Roboto, Arial, sans-serif; font-size: 11px; color: rgb(68, 68, 68); direction: ltr; text-align: right; background-color: rgb(245, 245, 245);">Map data ©2018 Google</div></div><div class="gmnoprint gm-style-cc" draggable="false" style="z-index: 1000001; user-select: none; height: 14px; line-height: 14px; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a href="https://www.google.com/intl/en-GB_US/help/terms_maps.html" target="_blank" style="text-decoration: none; cursor: pointer; color: rgb(68, 68, 68);">Terms of Use</a></div></div><button draggable="false" title="Toggle fullscreen view" aria-label="Toggle fullscreen view" type="button" style="background: none; border: 0px; margin: 10px 14px; padding: 0px; position: absolute; cursor: pointer; user-select: none; width: 25px; height: 25px; overflow: hidden; top: 0px; right: 0px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/sv9.png" draggable="false" class="gm-fullscreen-control" style="position: absolute; left: -52px; top: -86px; width: 164px; height: 175px; user-select: none; border: 0px; padding: 0px; margin: 0px;"></button><div draggable="false" class="gm-style-cc" style="user-select: none; height: 14px; line-height: 14px; display: none; position: absolute; right: 0px; bottom: 0px;"><div style="opacity: 0.7; width: 100%; height: 100%; position: absolute;"><div style="width: 1px;"></div><div style="background-color: rgb(245, 245, 245); width: auto; height: 100%; margin-left: 1px;"></div></div><div style="position: relative; padding-right: 6px; padding-left: 6px; font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); white-space: nowrap; direction: ltr; text-align: right; vertical-align: middle; display: inline-block;"><a target="_blank" rel="noopener" title="Report errors in the road map or imagery to Google" href="https://www.google.com/maps/@-37.821982,144.9581352,12z/data=!10m1!1e1!12b1?source=apiv3&amp;rapsrc=apiv3" style="font-family: Roboto, Arial, sans-serif; font-size: 10px; color: rgb(68, 68, 68); text-decoration: none; position: relative;">Report a map error</a></div></div><div class="gmnoprint gm-bundled-control gm-bundled-control-on-bottom" draggable="false" controlwidth="28" controlheight="93" style="margin: 10px; user-select: none; position: absolute; bottom: 107px; right: 28px;"><div class="gmnoprint" controlwidth="28" controlheight="55" style="position: absolute; left: 0px; top: 38px;"><div draggable="false" style="user-select: none; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; background-color: rgb(255, 255, 255); width: 28px; height: 55px;"><button draggable="false" title="Zoom in" aria-label="Zoom in" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: 0px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button><div style="position: relative; overflow: hidden; width: 67%; height: 1px; left: 16%; background-color: rgb(230, 230, 230); top: 0px;"></div><button draggable="false" title="Zoom out" aria-label="Zoom out" type="button" style="background: none; display: block; border: 0px; margin: 0px; padding: 0px; position: relative; cursor: pointer; user-select: none; width: 28px; height: 27px; top: 0px; left: 0px;"><div style="overflow: hidden; position: absolute; width: 15px; height: 15px; left: 7px; top: 6px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl.png" draggable="false" style="position: absolute; left: 0px; top: -15px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none; width: 120px; height: 54px;"></div></button></div></div><div class="gm-svpc" controlwidth="28" controlheight="28" style="background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; width: 28px; height: 28px; cursor: url(&quot;https://maps.gstatic.com/mapfiles/openhand_8_8.cur&quot;), default; touch-action: none; position: absolute; left: 0px; top: 0px;"><div style="position: absolute; left: 1px; top: 1px;"></div><div style="position: absolute; left: 1px; top: 1px;"><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -26px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Pegman is on top of the Map" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -52px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div aria-label="Street View Pegman Control" style="width: 26px; height: 26px; overflow: hidden; position: absolute; left: 0px; top: 0px; visibility: hidden;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/cb_scout5.png" draggable="false" style="position: absolute; left: -147px; top: -78px; width: 215px; height: 835px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" controlwidth="28" controlheight="0" style="display: none; position: absolute;"><div title="Rotate map 90 degrees" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; cursor: pointer; display: none;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: 6px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div><div class="gm-tilt" style="width: 28px; height: 28px; overflow: hidden; position: absolute; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; border-radius: 2px; top: 0px; cursor: pointer;"><img alt="" src="https://maps.gstatic.com/mapfiles/api-3/images/tmapctrl4.png" draggable="false" style="position: absolute; left: -141px; top: -13px; width: 170px; height: 54px; user-select: none; border: 0px; padding: 0px; margin: 0px; max-width: none;"></div></div></div><div class="gmnoprint" style="margin: 10px; z-index: 0; position: absolute; cursor: pointer; left: 0px; top: 0px;"><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="Show street map" aria-label="Show street map" aria-pressed="false" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(86, 86, 86); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-left-radius: 2px; border-top-left-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 22px;">Map</div></div><div class="gm-style-mtc" style="float: left; position: relative;"><div role="button" tabindex="0" title="" aria-label="" aria-pressed="true" draggable="false" style="direction: ltr; overflow: hidden; text-align: center; position: relative; color: rgb(0, 0, 0); font-family: Roboto, Arial, sans-serif; user-select: none; font-size: 11px; background-color: rgb(255, 255, 255); padding: 8px; border-bottom-right-radius: 2px; border-top-right-radius: 2px; background-clip: padding-box; box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px; min-width: 65px; border-left: 0px; font-weight: 500;">Custom Style</div></div></div></div></div></div>
+            </div>
+            <!--LOCATION MAP END-->
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="comment-form">
+                        <div class="row">
+							<form method="post" class="comments-form" id="contactform">
+								<div class="col-md-4 col-sm-4">
+									<div class="input-container">
+										<input type="text" id="name" name="name" class="required" placeholder="Name *">
+										<label for="name">Name</label>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="input-container">
+										<input type="text" id="email" name="email" class="required email" placeholder="Email *">
+										<label for="email">Email</label>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="input-container">
+										<input type="text" id="phone" name="phone" class="required" placeholder="Phone *">
+										<label for="phone">Phone</label>
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<div class="input-container">
+										<textarea name="message" id="message" placeholder="add your comment"></textarea>
+										<label for="message">Message</label>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<p class="input-block kf_capcha">
+										<label for="verify">Are you human?</label>
+										<iframe src="inc/capcha_page.php" height="29" width="80" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" class="capcha_image_frame" name="capcha_image_frame"></iframe>
+										<input class="verify" type="text" id="verify" name="verify">
+									</p>
+								</div>						
+								<div class="col-md-6">
+									<p class="kd-button kf_submit widget-newslatter pull-right"><input class="thbg-color" type="submit" value="Submit Comments"></p>
+								</div>
+							<div class="hidden-me" id="contact_form_responce"><p></p></div></form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 sidebar">
+                    <div class="widget widget-text">
+                        <h2>get in touch</h2>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                    <div class="widget widget-text">
+                        <h2>Information</h2>
+                        <ul>
+                           <li><i class="fa fa-map-marker"></i>Nemo enim ipsam voluptatem quia voluptas sit</li>
+                           <li><i class="fa fa-phone"></i>(25) 82 800 80</li>
+                           <li><i class="fa fa-envelope"></i><a href="mailto:info@librarytheme.com">info@librarytheme.com</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <!--LOCATION MAP END-->
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="comment-form">
+                        <div class="row">
+							<form method="post" class="comments-form" id="contactform">
+								<div class="col-md-4 col-sm-4">
+									<div class="input-container">
+										<input type="text" id="name" name="name" class="required" placeholder="Name *">
+										<label for="name">Name</label>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="input-container">
+										<input type="text" id="email" name="email" class="required email" placeholder="Email *">
+										<label for="email">Email</label>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div class="input-container">
+										<input type="text" id="phone" name="phone" class="required" placeholder="Phone *">
+										<label for="phone">Phone</label>
+									</div>
+								</div>
+								<div class="col-md-12 col-sm-12">
+									<div class="input-container">
+										<textarea name="message" id="message" placeholder="add your comment"></textarea>
+										<label for="message">Message</label>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<p class="input-block kf_capcha">
+										<label for="verify">Are you human?</label>
+										<iframe src="./contact-us_files/capcha_page.html" height="29" width="80" scrolling="no" frameborder="0" marginheight="0" marginwidth="0" class="capcha_image_frame" name="capcha_image_frame"></iframe>
+										<input class="verify" type="text" id="verify" name="verify">
+									</p>
+								</div>						
+								<div class="col-md-6">
+									<p class="kd-button kf_submit widget-newslatter pull-right"><input class="thbg-color" type="submit" value="Submit Comments"></p>
+								</div>
+							<div class="hidden-me" id="contact_form_responce"><p></p></div></form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 sidebar">
+                    <div class="widget widget-text">
+                        <h2>get in touch</h2>
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+                    </div>
+                    <div class="widget widget-text">
+                        <h2>Information</h2>
+                        <ul>
+                           <li><i class="fa fa-map-marker"></i>Nemo enim ipsam voluptatem quia voluptas sit</li>
+                           <li><i class="fa fa-phone"></i>(25) 82 800 80</li>
+                           <li><i class="fa fa-envelope"></i><a href="mailto:info@librarytheme.com">info@librarytheme.com</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+	<section class="kode-uptodate">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>stay up-to-dated</h2>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="social-icons">
+								<ul>
+									<li><a href="{% url 'index' 'index' %}"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="{% url 'index' 'index' %}"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="{% url 'index' 'index' %}"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="{% url 'index' 'index' %}"><i class="fa fa-pinterest-p"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="input-container">
+								<input type="text" placeholder="Your E-mail Address" id="sub-2">
+								<button>Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!--CONTENT END-->
+    <footer class="footer-3">
+        <div class="container">
+            <div class="row">
+                <!--CATEGORY WIDGET START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-categories">
+                        <h2>Information</h2>
+                        <ul>
+                            <li><a href="{% url 'index' 'index' %}">Specials</a></li> 
+                            <li><a href="{% url 'index' 'index' %}">New products</a></li> 
+                            <li><a href="{% url 'index' 'index' %}">Best sellers</a></li> 
+                            <li><a href="{% url 'index' 'index' %}">Contact us</a></li> 
+                            <li><a href="{% url 'index' 'index' %}">Terms of use</a></li> 
+                            <li><a href="{% url 'index' 'index' %}">Sitemap</a></li>  
+                        </ul>
+                    </div>
+                </div>
+                <!--CATEGORY WIDGET END-->
+                <!--LATEST NEWS WIDGET START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-latest-news">
+                        <h2>Lates News</h2>
+                        <ul>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--LATEST NEWS WIDGET END-->
+                <!--TWITTER WIDGET START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-flickr">
+                        <h2>Flickr Gallery </h2>
+                        <ul>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery1.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery2.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery3.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery4.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery5.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery6.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery4.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery5.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './contact-us_files/gallery6.png' %}" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--TWITTER WIDGET END-->
+                
+                <!--NEWSLETTER START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-contact-info">
+                        <h2>get in touch</h2>
+                        <ul>
+                            <li>
+                                <i class="fa fa-paper-plane"></i>
+                                <div class="kode-text">
+                                    <h4>Address</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <div class="kode-text">
+                                    <h4>phone Number</h4>
+                                    <p>+55(62) 55258-4570</p>
+                                    <p>+55(62) 55258-4570</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o"></i>
+                                <div class="kode-text">
+                                    <h4>Email Address</h4>
+                                    <a href="contact-us.html#">Info@thelibrary.com</a>
+                                </div>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+                <!--NEWSLETTER START END-->
+            </div>
+        </div>
+    </footer>
+    <div class="copyrights">
+    	<div class="container">
+        	<p>Copyrights © LearnersWorld</p>
+            <div class="cards"><img src="{% static './contact-us_files/cards.png' %}" alt=""></div>
+        </div>
+    </div>
+</div>
+<!--WRAPPER END-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{% static './about-us_files/jquery.min.js' %}"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{% static './about-us_files/bootstrap.min.js' %}"></script>
+<script src="{% static './about-us_files/modernizr.custom.js' %}"></script>
+<script src="{% static './about-us_files/jquery.dlmenu.js' %}"></script>
+<script src="{% static './about-us_files/jquery.bxslider.min.js' %}"></script>
+<script src="{% static './about-us_files/bootstrap-slider.js' %}"></script>
+<script src="{% static './about-us_files/waypoints.min.js' %}"></script> 
+<script src="{% static './about-us_files/jquery.counterup.min.js' %}"></script>
+<script src="{% static './about-us_files/owl.carousel.js' %}"></script>
+<script src="{% static './about-us_files/functions.js' %"></script>
+
+</body></html>

@@ -1,0 +1,33 @@
+
+{% extends 'base3.html' %}
+{% load staticfiles %}
+{% block title %}Profile of the user{% endblock %}
+{% block content %}
+
+{{   pro.username  }}  <br>
+{{   pro.full_name  }}  <br>
+{{   pro.full_name  }}  <br>
+{{   pro.about_yourself}}  <br>
+{{   pro.age }}  <br>
+{{   pro.contact_number  }}  <br>
+{{   pro.address}}  <br>
+{{   pro.Education}}  <br>
+{{   pro.Experience}}  <br>
+{{   pro.skills  }}  <br>
+{{   pro.Work  }}  <br>
+<img src="{{  pro.profile_photo.url }}" />  <br>
+
+<img src="{{  pro.resume.url }}" />  <br>
+
+{{   pro.interest1  }}  
+{% for interest in pro.interest1.all %}
+        <li>{{ interest }}</li>
+{% endfor %}
+<br>
+<br><br><br><br>
+<a href=""> add resource </a>
+  <p><a href="{% url 'logout' %}">logout</a></p>
+<p><a href="{% url 'profile_update'  %}">update</a></p>
+
+{% endblock %}
+

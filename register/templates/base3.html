@@ -1,0 +1,329 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://kodeforest.net/html/books/library/about-us.html -->
+<html lang="en" class=" js no-touch cssanimations csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Learners World! Come, Contribute and Learn!</title>
+<!-- CUSTOM STYLE -->
+<link href="{% static './about-us_files/style.css' %}" rel="stylesheet">
+<!-- THEME TYPO -->
+<link href="{% static './about-us_files/themetypo.css' %}" rel="stylesheet">
+<!-- SHORTCODES -->
+<link href="{% static './about-us_files/shortcode.css' %}" rel="stylesheet">
+<!-- BOOTSTRAP -->
+<link href="{% static './about-us_files/bootstrap.css' %}" rel="stylesheet">
+<!-- COLOR FILE -->
+<link href="{% static './about-us_files/color.css' %}" rel="stylesheet">
+<!-- FONT AWESOME -->
+<link href="{% static './about-us_files/font-awesome.min.css' %}" rel="stylesheet">
+<!-- BX SLIDER -->
+<link href="{% static './about-us_files/jquery.bxslider.css' %}" rel="stylesheet">
+<!-- Boostrap Slider -->
+<link href="{% static './about-us_files/bootstrap-slider.css' %}" rel="stylesheet">
+<!-- Widgets -->
+<link href="{% static './about-us_files/widget.css' %}" rel="stylesheet">
+<!-- Owl Carusel -->
+<link href="{% static './about-us_files/owl.carousel.css' %}" rel="stylesheet">
+<!-- responsive -->
+<link href="{% static './about-us_files/responsive.css' %}" rel="stylesheet">
+<!-- Component -->
+<link href="{% static './about-us_files/component.css' %}" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body class="loaded">
+<div id="loader-wrapper">
+	<div id="loader"></div>
+
+	<div class="loader-section section-left"></div>
+	<div class="loader-section section-right"></div>
+
+</div>
+<div class="wrapper kode-header-class-3">
+	<!--HEADER START-->
+	<header class="header-3">
+    	<div class="container">
+            <div class="logo-container">
+            	<div class="row">
+                	<div class="col-md-3">
+                    	 <!--LOGO START-->
+                        <div class="logo">
+                            <a href="{% url 'index' 'index' %}"><img src="{% static './index_files/logo-2.png' %}" alt=""></a>
+                        </div>
+                        <!--LOGO END-->
+                    </div>
+                    <div class="col-md-9">
+                    	<div class="top-strip">
+                            <div class="pull-left">
+                                <p>Welcome to LearnersWorld</p>
+                            </div>
+                            <div class="social-icon">
+                                <a href="{% url 'index' 'index' %}" class="pull-left">info@learnersworld.com</a>
+                                <ul>
+                                    <li><a href="about-us.html#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="about-us.html#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="about-us.html#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="about-us.html#"><i class="fa fa-linkedin"></i></a></li>                      
+                                </ul>
+                            </div>
+                        </div>
+                    	<div class="kode-navigation">
+						   <ul>
+								<li><a href="{% url 'index' 'index' %}">Home</a>
+								</li>
+                                <li><a href="{% url 'index' 'about-us' %}">About Us</a></li>
+								<li><a href="{% url 'index' 'add_resource' %}">Contribute</a></li>
+								<li><a href="{% url 'index' 'books' %}">Resources</a>
+								</li>
+								<li class="last"><a href="{% url 'index' 'contact-us' %}">Contact Us</a></li>
+							</ul>
+						</div>
+						<div id="kode-responsive-navigation" class="dl-menuwrapper">
+							<button class="dl-trigger">Open Menu</button>
+							<ul class="dl-menu">
+								
+								<li><a href="{% url 'index' 'contribute' %}">Contribute</a></li>
+								<li class="menu-item kode-parent-menu"><a href="{% url 'index' 'books' %}">Resources</a>
+								</li>
+								<li class="last"><a href="{% url 'index' 'contact-us' %}">Contact Us</a></li>
+							</ul>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="kode-inner-banner">
+
+    	<div class="kode-page-heading">
+        	<h2>USER PROFILE</h2>
+            
+        </div>
+    </div>
+                    
+    <div class="search-section">
+		<div class="container">
+			
+			  </div>
+		</div>
+	</div>
+    
+
+    <div class="kode-content">
+        <!--BOOK GUIDE SECTION START-->
+        <section class="kode-about-us-section">
+        	<div class="container">
+            	<!--SECTION CONTENT START-->
+            	<div class="heading-1">
+                	<p>{% block content %}
+            			{% endblock %}</p>
+                   
+                </div>
+                <!--SECTION CONTENT END-->
+                <div class="row">
+                	<div class="col-md-6">
+                    	<h2>Who we are?</h2>
+                        
+                        <ul class="kd-list3">
+                            <li><a href="{% url 'index' 'index' %}">Consetetur sadipscing elitr sed diam nonumy eirmod</a></li>
+                            <li><a href="{% url 'index' 'index' %}#">Sadipscing elitr sed diam nonumy eirmod</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                    	<div class="about-thumb">
+                        	<img src="{% static './about-us_files/about-img3.png' %}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+                 
+       
+	</div>	
+	<!--FACTS SECTION END-->
+	<section class="kode-uptodate">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h2>stay up-to-dated</h2>
+				</div>
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="social-icons">
+								<ul>
+									<li><a href="about-us.html#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="about-us.html#"><i class="fa fa-google-plus"></i></a></li>
+									<li><a href="about-us.html#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="about-us.html#"><i class="fa fa-pinterest-p"></i></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="input-container">
+								<input type="text" placeholder="Your E-mail Address" id="sub-2">
+								<button>Subscribe</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    <!--CONTENT END-->
+    <footer class="footer-3">
+        <div class="container">
+            <div class="row">
+                <!--CATEGORY WIDGET START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-categories">
+                        <h2>Information</h2>
+                        <ul>
+                            <li><a href="about-us.html#">Specials</a></li> 
+                            <li><a href="about-us.html#">New products</a></li> 
+                            <li><a href="about-us.html#">Best sellers</a></li> 
+                            <li><a href="about-us.html#">Contact us</a></li> 
+                            <li><a href="about-us.html#">Terms of use</a></li> 
+                            <li><a href="about-us.html#">Sitemap</a></li>  
+                        </ul>
+                    </div>
+                </div>
+                <!--CATEGORY WIDGET END-->
+                <!--LATEST NEWS WIDGET START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-latest-news">
+                        <h2>Lates News</h2>
+                        <ul>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="kode-thumb"><a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/latest-news.png' %}" alt=""></a></div>
+                                <div class="kode-text">
+                                    <p>Phasellus risusa Aliowm</p>
+                                    <p>14 December 2015</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--LATEST NEWS WIDGET END-->
+                <!--TWITTER WIDGET START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-flickr">
+                        <h2>Flickr Gallery </h2>
+                        <ul>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery1.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery2.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery3.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery4.png' %" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery5.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery6.png' %" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery4.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery5.png' %}" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'index' 'index' %}"><img src="{% static './about-us_files/gallery6.png' %}" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--TWITTER WIDGET END-->
+                
+                <!--NEWSLETTER START-->
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget widget-contact-info">
+                        <h2>get in touch</h2>
+                        <ul>
+                            <li>
+                                <i class="fa fa-paper-plane"></i>
+                                <div class="kode-text">
+                                    <h4>Address</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-phone"></i>
+                                <div class="kode-text">
+                                    <h4>phone Number</h4>
+                                    <p>+55(62) 55258-4570</p>
+                                    <p>+55(62) 55258-4570</p>
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope-o"></i>
+                                <div class="kode-text">
+                                    <h4>Email Address</h4>
+                                    <a href="{% url 'index' 'index' %}">Info@thelibrary.com</a>
+                                </div>
+                            </li>
+                        </ul>                        
+                    </div>
+                </div>
+                <!--NEWSLETTER START END-->
+            </div>
+        </div>
+    </footer>
+    <div class="copyrights">
+    	<div class="container">
+        	<p>Copyrights © LearnerWorld</p>
+            <div class="cards"><img src="{% static './about-us_files/cards.png' }" alt=""></div>
+        </div>
+    </div>
+</div>
+<!--WRAPPER END-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{% static './about-us_files/jquery.min.js' %}"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{% static './about-us_files/bootstrap.min.js' %}"></script>
+<script src="{% static './about-us_files/modernizr.custom.js' %}"></script>
+<script src="{% static './about-us_files/jquery.dlmenu.js' %}"></script>
+<script src="{% static './about-us_files/jquery.bxslider.min.js' %}"></script>
+<script src="{% static './about-us_files/bootstrap-slider.js' %}"></script>
+<script src="{% static './about-us_files/waypoints.min.js' %}"></script> 
+<script src="{% static './about-us_files/jquery.counterup.min.js' %}"></script>
+<script src="{% static './about-us_files/owl.carousel.js' %}"></script>
+<script src="{% static './about-us_files/functions.js' %"></script>
+
+</body></html>
